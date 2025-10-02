@@ -11,7 +11,7 @@ export default function Table({ Deletuser, UpdatedUser }) {
 
         async function FeatchData() {
             try {
-                const user = await axios.get('https://emp-management-vqeb.onrender.com/api/get')
+                const user = await axios.get('https://emp-backend-0zyr.onrender.com/api/get')
                 const response = user.data
 
 
